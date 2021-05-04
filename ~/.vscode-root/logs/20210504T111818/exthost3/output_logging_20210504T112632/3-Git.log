@@ -1,0 +1,16 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/laravel-vue-inertia-Js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/laravel-vue-inertia-Js/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /opt/lampp/htdocs/laravel-vue-inertia-Js/.env.example
+> git show --textconv :.env.example
+> git ls-files --stage -- /opt/lampp/htdocs/laravel-vue-inertia-Js/.env.example
+> git cat-file -s de234c9954c3a44107ad255e8b654770b54d3f56
+> git check-ignore -v -z --stdin

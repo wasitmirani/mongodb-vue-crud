@@ -1,0 +1,27 @@
+[2021-05-04 11:45:50.372] [renderer4] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at _lineAt (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:1174)
+    at Object.rangeOffset [as lineAt] (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:95)
+    at /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:308:41
+    at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at T.$acceptModelChanged (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:145108)
+    at u._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+    at u._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+    at u._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+    at u._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+    at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:29750
+    at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at E.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+    at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+    at Socket.w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
